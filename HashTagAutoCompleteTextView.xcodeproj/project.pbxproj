@@ -16,6 +16,12 @@
 		C2BE5CE7219E66BF001EC7AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BE5CE5219E66BF001EC7AD /* LaunchScreen.storyboard */; };
 		C2BE5CF2219E66BF001EC7AD /* HashTagAutoCompleteTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE5CF1219E66BF001EC7AD /* HashTagAutoCompleteTextViewTests.swift */; };
 		C2BE5CFD219E66BF001EC7AD /* HashTagAutoCompleteTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE5CFC219E66BF001EC7AD /* HashTagAutoCompleteTextViewUITests.swift */; };
+		C2BE5D0B219E8F51001EC7AD /* UITextView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE5D0A219E8F51001EC7AD /* UITextView+Rx.swift */; };
+		C2BE5D0D219E95E1001EC7AD /* HashTagAutoCompleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE5D0C219E95E1001EC7AD /* HashTagAutoCompleteViewModel.swift */; };
+		C2BE5D11219EA3CD001EC7AD /* HashTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2BE5D10219EA3CD001EC7AD /* HashTagCell.xib */; };
+		C2BE5D13219EA43F001EC7AD /* HashTagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE5D12219EA43F001EC7AD /* HashTagCell.swift */; };
+		C2BE5D15219EB469001EC7AD /* HashTagStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE5D14219EB469001EC7AD /* HashTagStore.swift */; };
+		C2BE5D17219EB550001EC7AD /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE5D16219EB550001EC7AD /* UITextViewExtension.swift */; };
 		D5A0B672DD84ADF1D5124ACC /* Pods_HashTagAutoCompleteTextViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21097C6F5A7962E2252BC1E /* Pods_HashTagAutoCompleteTextViewTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +63,12 @@
 		C2BE5CF8219E66BF001EC7AD /* HashTagAutoCompleteTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashTagAutoCompleteTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BE5CFC219E66BF001EC7AD /* HashTagAutoCompleteTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagAutoCompleteTextViewUITests.swift; sourceTree = "<group>"; };
 		C2BE5CFE219E66BF001EC7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BE5D0A219E8F51001EC7AD /* UITextView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Rx.swift"; sourceTree = "<group>"; };
+		C2BE5D0C219E95E1001EC7AD /* HashTagAutoCompleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagAutoCompleteViewModel.swift; sourceTree = "<group>"; };
+		C2BE5D10219EA3CD001EC7AD /* HashTagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HashTagCell.xib; sourceTree = "<group>"; };
+		C2BE5D12219EA43F001EC7AD /* HashTagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagCell.swift; sourceTree = "<group>"; };
+		C2BE5D14219EB469001EC7AD /* HashTagStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagStore.swift; sourceTree = "<group>"; };
+		C2BE5D16219EB550001EC7AD /* UITextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
 		F569B332EE1DED02EEF73A87 /* Pods-HashTagAutoCompleteTextViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HashTagAutoCompleteTextViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HashTagAutoCompleteTextViewTests/Pods-HashTagAutoCompleteTextViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6B7D49FA3CC4A992659FC12 /* Pods-HashTagAutoCompleteTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HashTagAutoCompleteTextView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HashTagAutoCompleteTextView/Pods-HashTagAutoCompleteTextView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +138,12 @@
 			children = (
 				C2BE5CDC219E66BB001EC7AD /* AppDelegate.swift */,
 				C2BE5CDE219E66BB001EC7AD /* ViewController.swift */,
+				C2BE5D0C219E95E1001EC7AD /* HashTagAutoCompleteViewModel.swift */,
+				C2BE5D0A219E8F51001EC7AD /* UITextView+Rx.swift */,
+				C2BE5D12219EA43F001EC7AD /* HashTagCell.swift */,
+				C2BE5D14219EB469001EC7AD /* HashTagStore.swift */,
+				C2BE5D16219EB550001EC7AD /* UITextViewExtension.swift */,
+				C2BE5D10219EA3CD001EC7AD /* HashTagCell.xib */,
 				C2BE5CE0219E66BB001EC7AD /* Main.storyboard */,
 				C2BE5CE3219E66BF001EC7AD /* Assets.xcassets */,
 				C2BE5CE5219E66BF001EC7AD /* LaunchScreen.storyboard */,
@@ -273,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2BE5D11219EA3CD001EC7AD /* HashTagCell.xib in Resources */,
 				C2BE5CE7219E66BF001EC7AD /* LaunchScreen.storyboard in Resources */,
 				C2BE5CE4219E66BF001EC7AD /* Assets.xcassets in Resources */,
 				C2BE5CE2219E66BB001EC7AD /* Main.storyboard in Resources */,
@@ -377,8 +396,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2BE5D17219EB550001EC7AD /* UITextViewExtension.swift in Sources */,
+				C2BE5D0B219E8F51001EC7AD /* UITextView+Rx.swift in Sources */,
 				C2BE5CDF219E66BB001EC7AD /* ViewController.swift in Sources */,
+				C2BE5D13219EA43F001EC7AD /* HashTagCell.swift in Sources */,
 				C2BE5CDD219E66BB001EC7AD /* AppDelegate.swift in Sources */,
+				C2BE5D15219EB469001EC7AD /* HashTagStore.swift in Sources */,
+				C2BE5D0D219E95E1001EC7AD /* HashTagAutoCompleteViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
